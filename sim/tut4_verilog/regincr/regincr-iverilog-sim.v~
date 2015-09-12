@@ -18,12 +18,12 @@ module top;
   logic [7:0] out;
   
   tut4_verilog_regincr_RegIncr reg_incr
-  (
-    .clk (clk),
-    .reset (reset),
-    .in (in),
-    .out (out)
-  );
+21 (
+22 .clk (clk),
+23 .reset (reset),
+24 .in (in),
+25 .out (out)
+26 );
 
   // ''' TUTORIAL TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
   // This simulator script is incomplete. As part of the tutorial you

@@ -27,7 +27,6 @@ module tut4_verilog_regincr_RegIncr
   end
   
   reg [7:0] temp_wire;
-  
   always @(*) begin
     temp_wire = reg_out + 1;
   end
